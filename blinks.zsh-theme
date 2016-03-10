@@ -41,4 +41,4 @@ ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
 %{%K{${bkg}}%B%F{green}%}%n%{%B%F{blue}%}@%{%B%F{cyan}%}%m%{%B%F{green}%}:%{%b%F{yellow}%K{${bkg}}%}%~%{%B%F{green}%}$(_prompt_info)%E%{%f%k%b%}%{%K{${bkg}}%}$(_prompt_char)%{%K{${bkg}}%} %#%{%f%k%b%} '
-RPROMPT='%{%K{${bkg}}%B%F{cyan}%}%D{%H:%M %d/%m/%Y} %{%f%k%b%}'
+RPROMPT='%{%K{${bkg}}%B%F{cyan}%}%D{%H:%M - %d/%m/%Y} %{%f%k%b%}'
