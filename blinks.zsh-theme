@@ -41,5 +41,5 @@ ZSH_THEME_HG_PROMPT_CLEAN=""
 
 PROMPT='%{%f%k%b%}
 %{%K{${bkg}}%B%F{green}%}%n%{%B%F{blue}%}@%{%B%F{cyan}%}%m%{%B%F{green}%}:%{%b%F{yellow}%K{${bkg}}%}%~%{%B%F{green}%}$(_prompt_info)%E%{%f%k%b%}%{%K{${bkg}}%}$(_prompt_char)%{%K{${bkg}}%} %# '
-POSTEDIT='%{%f%k%b%}'
+POSTEDIT='echotc se'
 RPROMPT='%{%B%F{cyan}%}%@ - %D{%A, %B %d, %Y}%{%f%k%b%}'
