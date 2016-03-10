@@ -7,7 +7,7 @@ function _prompt_char() {
   elif $(hg root > /dev/null 2>&1); then
     echo "%{%F{blue}%}☿%{%f%k%b%}"
   else
-    echo ' '
+    echo ''
   fi
 }
 
