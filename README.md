@@ -7,6 +7,6 @@ This is my customizations on the Blinks theme that comes with Oh My ZSH. It make
 
 ## Usage
 <pre>
-antigen update && antigen theme max13fr/blinks.zsh-theme blinks.zsh-them
+antigen update && antigen theme max13fr/blinks.zsh-theme blinks.zsh-theme
 </pre>
 
