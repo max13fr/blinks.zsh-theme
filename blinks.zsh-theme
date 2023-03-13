@@ -4,8 +4,6 @@
 function _prompt_char() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo "%{%F{blue}%}±%{%f%k%b%}"
-  elif $(hg root > /dev/null 2>&1); then
-    echo "%{%F{blue}%}☿%{%f%k%b%}"
   else
     echo ''
   fi
@@ -14,8 +12,6 @@ function _prompt_char() {
 function _prompt_info() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     echo $(git_prompt_info)
-  elif $(hg root &> /dev/null); then
-    echo $(hg_prompt_info 2> /dev/null) || ""
   fi
 }
 
